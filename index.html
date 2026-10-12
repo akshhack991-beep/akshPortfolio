@@ -1,0 +1,565 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfolio of Aksh Kumar - BCA Student at Patna University's B.N. College, Aspiring Software & Web Developer specializing in C, Java, Python, HTML, CSS, JavaScript, and Django.">
+  <meta name="author" content="Aksh Kumar">
+  <title>Aksh Kumar | BCA Student & Aspiring Software Developer</title>
+  <link rel="icon" type="image/png" href="assets/images/kitkat-logo.png">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <!-- =========================================================================
+       Navigation Header
+       ========================================================================= -->
+  <header class="site-header" id="siteHeader">
+    <div class="container nav-container">
+      <!-- Brand Logo / Wordmark -->
+      <a href="index.html" class="brand-link" aria-label="Aksh Kumar Portfolio Home">
+        <img src="assets/images/kitkat-logo.png" alt="Aksh Kumar Emblem" class="brand-emblem" width="38" height="38">
+        <span class="brand-text">
+          <span class="brand-name">Aksh Kumar</span>
+          <span class="brand-sub">Software &amp; Web Dev</span>
+        </span>
+      </a>
+
+      <!-- Desktop Navigation Links (Centered) -->
+      <nav aria-label="Main Navigation">
+        <ul class="nav-menu" id="desktopNav">
+          <li><a href="index.html" class="nav-link active">Home</a></li>
+          <li><a href="about.html" class="nav-link">About</a></li>
+          <li><a href="projects.html" class="nav-link">Projects</a></li>
+          <li><a href="skills.html" class="nav-link">Skills</a></li>
+          <li><a href="resume.html" class="nav-link">Resume</a></li>
+          <li><a href="contact.html" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+
+      <!-- Action Buttons & Theme Toggle -->
+      <div class="nav-actions">
+        <button type="button" class="theme-toggle-btn" id="themeToggleBtn" aria-label="Toggle Dark and Light Mode">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <circle cx="12" cy="12" r="5"></circle>
+            <line x1="12" y1="1" x2="12" y2="3"></line>
+            <line x1="12" y1="21" x2="12" y2="23"></line>
+            <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+            <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+            <line x1="1" y1="12" x2="3" y2="12"></line>
+            <line x1="21" y1="12" x2="23" y2="12"></line>
+            <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+            <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+          </svg>
+        </button>
+
+        <a href="contact.html" class="btn btn-primary btn-sm" id="navContactBtn">
+          Contact Me
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" width="16" height="16" aria-hidden="true">
+            <line x1="5" y1="12" x2="19" y2="12"></line>
+            <polyline points="12 5 19 12 12 19"></polyline>
+          </svg>
+        </a>
+
+        <!-- Mobile Hamburger Menu Toggle -->
+        <button type="button" class="hamburger-btn" id="hamburgerBtn" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="mobileDrawer">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </div>
+
+    <!-- Mobile Navigation Drawer -->
+    <div class="mobile-nav-drawer" id="mobileDrawer" aria-label="Mobile Navigation">
+      <a href="index.html" class="mobile-nav-link active">Home</a>
+      <a href="about.html" class="mobile-nav-link">About</a>
+      <a href="projects.html" class="mobile-nav-link">Projects</a>
+      <a href="skills.html" class="mobile-nav-link">Skills</a>
+      <a href="resume.html" class="mobile-nav-link">Resume</a>
+      <a href="contact.html" class="mobile-nav-link">Contact</a>
+      <div style="padding-top: 0.5rem;">
+        <a href="assets/documents/Aksh_Kumar_Resume.pdf" download="Aksh_Kumar_Resume.pdf" target="_blank" rel="noopener noreferrer" class="btn btn-outline" style="width: 100%;">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" width="16" height="16" aria-hidden="true">
+            <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+            <polyline points="7 10 12 15 17 10"></polyline>
+            <line x1="12" y1="15" x2="12" y2="3"></line>
+          </svg>
+          Download Resume (PDF)
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <!-- =========================================================================
+       Main Content: Homepage
+       ========================================================================= -->
+  <main id="mainContent">
+    <!-- Hero Section -->
+    <section class="hero-section" id="hero">
+      <div class="container">
+        <div class="hero-grid">
+          <!-- Left Column: Introduction & CTAs -->
+          <div class="hero-content">
+            <div class="status-badge hero-stagger-1">
+              <span class="status-dot"></span>
+              <span>BCA (2025–2028) &bull; Patna University &bull; Software &amp; Web Development</span>
+            </div>
+
+            <h1 class="hero-title hero-stagger-2">
+              Hi, I'm <span class="hero-name-highlight">Aksh Kumar</span>
+            </h1>
+
+            <p class="hero-subtitle hero-stagger-3">
+              BCA Student &bull; <span id="roleText" class="role-text-fade">Aspiring Software &amp; Web Developer</span>
+            </p>
+
+            <p class="hero-description hero-stagger-4">
+              Undergraduate BCA student at Patna University’s B.N. College building practical software fundamentals and clean web interfaces. Focused on writing robust, well-structured code across JavaScript, Python, C, and Java with modern Git &amp; GitHub workflows.
+            </p>
+
+            <div class="hero-actions hero-stagger-5">
+              <a href="projects.html" class="btn btn-primary btn-lg" id="heroViewProjectsBtn">
+                View Projects
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <line x1="5" y1="12" x2="19" y2="12"></line>
+                  <polyline points="12 5 19 12 12 19"></polyline>
+                </svg>
+              </a>
+
+              <a href="contact.html" class="btn btn-secondary btn-lg" id="heroContactBtn">
+                Contact Me
+              </a>
+
+              <a href="assets/documents/Aksh_Kumar_Resume.pdf" download="Aksh_Kumar_Resume.pdf" target="_blank" rel="noopener noreferrer" class="btn btn-outline btn-lg" id="heroDownloadResumeBtn">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                  <polyline points="7 10 12 15 17 10"></polyline>
+                  <line x1="12" y1="15" x2="12" y2="3"></line>
+                </svg>
+                Download Resume
+              </a>
+            </div>
+
+            <!-- Stats Bar -->
+            <div class="hero-stats-bar">
+              <div class="stat-item">
+                <span class="stat-number">3</span>
+                <span class="stat-label">Featured Projects</span>
+              </div>
+              <div class="stat-item">
+                <span class="stat-number">2025&ndash;2028</span>
+                <span class="stat-label">BCA Batch</span>
+              </div>
+              <div class="stat-item">
+                <span class="stat-number">2</span>
+                <span class="stat-label">Technical Workshops</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Right Column: Profile Image Card -->
+          <div class="hero-visual-wrapper">
+            <div class="hero-image-card">
+              <div class="hero-photo-container">
+                <img src="assets/images/aksh-profile.png" alt="Aksh Kumar at his modern development workstation" class="hero-photo" width="1280" height="720" loading="eager">
+              </div>
+
+              <!-- Refined Tech Dock (Neatly docked below workstation) -->
+              <div class="hero-tech-dock">
+                <span class="dock-pill">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="var(--accent-primary)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                    <polyline points="16 18 22 12 16 6"></polyline>
+                    <polyline points="8 6 2 12 8 18"></polyline>
+                  </svg>
+                  HTML &bull; CSS &bull; JavaScript
+                </span>
+                <span class="dock-pill">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="var(--accent-secondary)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                    <circle cx="12" cy="12" r="10"></circle>
+                    <line x1="2" y1="12" x2="22" y2="12"></line>
+                    <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path>
+                  </svg>
+                  Python &bull; C &bull; Java
+                </span>
+                <span class="dock-pill">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="var(--accent-primary)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                    <path d="M22 10v6M2 10l10-5 10 5-10 5z"></path>
+                    <path d="M6 12v5c3 3 9 3 12 0v-5"></path>
+                  </svg>
+                  Patna University BCA
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Short About Me Preview Section -->
+    <section class="section section-sm" id="aboutPreview">
+      <div class="container">
+        <div class="glass-card" style="display: flex; flex-direction: column; gap: 2rem;">
+          <div class="about-preview-layout">
+            <!-- Left: Story & Key Highlights -->
+            <div>
+              <span class="section-tag">About My Journey</span>
+              <h2 style="font-size: 2rem; margin: 0.35rem 0 1rem 0;">Developing Practical Programming Foundations</h2>
+              <p style="font-size: 1.05rem; line-height: 1.7; color: var(--text-secondary); margin-bottom: 1.5rem;">
+                As an undergraduate BCA student at Patna University’s B.N. College, I actively pair classroom core computer science concepts with modern hands-on software development. Rather than staying theoretical, I write code every day across HTML, CSS, JavaScript, and Python—testing algorithms and deploying responsive web interfaces.
+              </p>
+              <div class="about-preview-grid">
+                <div class="preview-stat-card">
+                  <h3>Patna University &bull; B.N. College</h3>
+                  <p>Pursuing BCA degree (Batch 2025–2028) with continuous focus on software engineering fundamentals and algorithms.</p>
+                </div>
+                <div class="preview-stat-card">
+                  <h3>Modern Developer Tooling</h3>
+                  <p>Active workflows using Git version control, GitHub collaboration, and Google Antigravity IDE for efficient engineering.</p>
+                </div>
+              </div>
+              <div style="margin-top: 1.5rem;">
+                <a href="about.html" class="btn btn-outline btn-sm">
+                  Read Full Bio &amp; Academic Journey
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" width="16" height="16" aria-hidden="true">
+                    <line x1="5" y1="12" x2="19" y2="12"></line>
+                    <polyline points="12 5 19 12 12 19"></polyline>
+                  </svg>
+                </a>
+              </div>
+            </div>
+
+            <!-- Right: Workspace Preview Image Card -->
+            <div class="workspace-preview-media">
+              <img src="assets/images/dev-workspace.jpg" alt="Aksh Kumar's Modern Code Workspace and Git Workflow" class="workspace-preview-img" loading="lazy">
+              <div class="workspace-caption">
+                <span>Code Studio &bull; Modern IDE Setup</span>
+                <span style="color: var(--accent-primary);">Active Workspace</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Featured Projects Section -->
+    <section class="section" id="featuredProjects">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Featured Work</span>
+          <h2 class="section-title">Verified <span class="gradient-text">Personal Projects</span></h2>
+          <p class="section-description">
+            Explore three genuine projects built to develop front-end architecture, DOM manipulation, and Python command-line utility skills.
+          </p>
+        </div>
+
+        <div class="projects-grid">
+          <!-- Project 1: Myntra Clone -->
+          <article class="project-card" id="projectCardMyntra">
+            <div class="project-media-wrap">
+              <div class="project-window-bar">
+                <div class="window-dots">
+                  <span class="window-dot dot-red"></span>
+                  <span class="window-dot dot-yellow"></span>
+                  <span class="window-dot dot-slate"></span>
+                </div>
+                <span class="window-slug">myntra-clone.preview</span>
+                <span class="project-badge-tag">Front-End E-Commerce</span>
+              </div>
+              <img src="assets/images/project-myntra.png" alt="Myntra Clone Project Screenshot" class="project-thumbnail" loading="lazy">
+            </div>
+            <div class="project-body">
+              <h3 class="project-title">Myntra Clone</h3>
+              <p class="project-desc">
+                Created a front-end e-commerce interface inspired by Myntra, focusing on responsive page layout, product display grids, category banners, and smooth user navigation.
+              </p>
+              <div class="project-tech-tags">
+                <span class="tech-tag">HTML5</span>
+                <span class="tech-tag">Vanilla CSS</span>
+                <span class="tech-tag">Responsive Layout</span>
+              </div>
+              <div class="project-links">
+                <a href="https://kitkat99344.github.io/myntra-clone/" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-sm">
+                  Live Demo
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" width="14" height="14" aria-hidden="true">
+                    <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                    <polyline points="15 3 21 3 21 9"></polyline>
+                    <line x1="10" y1="14" x2="21" y2="3"></line>
+                  </svg>
+                </a>
+                <a href="https://github.com/akshkumar3156-art" target="_blank" rel="noopener noreferrer" class="btn btn-secondary btn-sm" aria-label="View Myntra Clone author GitHub">
+                  GitHub
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" width="14" height="14" aria-hidden="true">
+                    <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 2: To-Do List Application -->
+          <article class="project-card" id="projectCardTodo">
+            <div class="project-media-wrap">
+              <div class="project-window-bar">
+                <div class="window-dots">
+                  <span class="window-dot dot-red"></span>
+                  <span class="window-dot dot-yellow"></span>
+                  <span class="window-dot dot-slate"></span>
+                </div>
+                <span class="window-slug">todo-app.local</span>
+                <span class="project-badge-tag">Browser Web App</span>
+              </div>
+              <img src="assets/images/project-todo.png" alt="To-Do List Application Screenshot" class="project-thumbnail" loading="lazy">
+            </div>
+            <div class="project-body">
+              <h3 class="project-title">To-Do List Application</h3>
+              <p class="project-desc">
+                Built a browser-based task list to add, update, organize, and track daily activities with dynamic task dates, timestamps, and interactive deletion controls.
+              </p>
+              <div class="project-tech-tags">
+                <span class="tech-tag">HTML5</span>
+                <span class="tech-tag">CSS3</span>
+                <span class="tech-tag">JavaScript</span>
+                <span class="tech-tag">DOM Manipulation</span>
+              </div>
+              <div class="project-links">
+                <a href="https://akshkumar3156-art.github.io/ToDoList/" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-sm">
+                  Live Demo
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" width="14" height="14" aria-hidden="true">
+                    <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                    <polyline points="15 3 21 3 21 9"></polyline>
+                    <line x1="10" y1="14" x2="21" y2="3"></line>
+                  </svg>
+                </a>
+                <a href="https://github.com/akshkumar3156-art" target="_blank" rel="noopener noreferrer" class="btn btn-secondary btn-sm" aria-label="View To-Do List author GitHub">
+                  GitHub
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" width="14" height="14" aria-hidden="true">
+                    <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 3: Weather CLI Project -->
+          <article class="project-card" id="projectCardWeather">
+            <div class="project-media-wrap">
+              <div class="project-window-bar">
+                <div class="window-dots">
+                  <span class="window-dot dot-red"></span>
+                  <span class="window-dot dot-yellow"></span>
+                  <span class="window-dot dot-slate"></span>
+                </div>
+                <span class="window-slug">weather-cli.py</span>
+                <span class="project-badge-tag">Python &bull; CLI</span>
+              </div>
+              <img src="assets/images/project-weather.png" alt="Weather CLI Terminal Screenshot" class="project-thumbnail" loading="lazy">
+            </div>
+            <div class="project-body">
+              <h3 class="project-title">Weather CLI Project</h3>
+              <p class="project-desc">
+                Developed a command-line weather project as part of programming practice. Inspects city temperatures, humidity, sky conditions, and wind speed via Python terminal execution.
+              </p>
+              <div class="cli-notice">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" width="14" height="14" aria-hidden="true">
+                  <polyline points="4 17 10 11 4 5"></polyline>
+                  <line x1="12" y1="19" x2="20" y2="19"></line>
+                </svg>
+                <span>Terminal CLI Project (No Web Demo)</span>
+              </div>
+              <div class="project-tech-tags">
+                <span class="tech-tag">Python</span>
+                <span class="tech-tag">CLI</span>
+                <span class="tech-tag">Weather API</span>
+                <span class="tech-tag">Terminal Utility</span>
+              </div>
+              <div class="project-links">
+                <a href="https://github.com/akshkumar3156-art/learning_projects" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-sm" style="flex: 2;">
+                  View Repository
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" width="14" height="14" aria-hidden="true">
+                    <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                    <polyline points="15 3 21 3 21 9"></polyline>
+                    <line x1="10" y1="14" x2="21" y2="3"></line>
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </article>
+        </div>
+
+        <div style="text-align: center; margin-top: 3rem;">
+          <a href="projects.html" class="btn btn-outline btn-lg">
+            View All Project Details &amp; Specifications
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <line x1="5" y1="12" x2="19" y2="12"></line>
+              <polyline points="12 5 19 12 12 19"></polyline>
+            </svg>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Technical Skills Preview Strip -->
+    <section class="section section-sm" id="skillsPreview">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Core Competencies</span>
+          <h2 class="section-title">Verified <span class="gradient-text">Technical Skills</span></h2>
+          <p class="section-description">
+            Current skill areas directly supported by my coursework and project implementations.
+          </p>
+        </div>
+
+        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 1.5rem;">
+          <div class="glass-card" style="padding: 1.5rem;">
+            <h3 style="font-size: 1.15rem; color: var(--accent-primary); margin-bottom: 0.75rem;">Programming</h3>
+            <div style="display: flex; flex-wrap: wrap; gap: 0.5rem;">
+              <span class="skill-badge">C</span>
+              <span class="skill-badge">Java</span>
+              <span class="skill-badge">Python</span>
+            </div>
+          </div>
+
+          <div class="glass-card" style="padding: 1.5rem;">
+            <h3 style="font-size: 1.15rem; color: var(--accent-indigo); margin-bottom: 0.75rem;">Web Technologies</h3>
+            <div style="display: flex; flex-wrap: wrap; gap: 0.5rem;">
+              <span class="skill-badge">HTML5</span>
+              <span class="skill-badge">Vanilla CSS</span>
+              <span class="skill-badge">JavaScript</span>
+              <span class="skill-badge">Django</span>
+            </div>
+          </div>
+
+          <div class="glass-card" style="padding: 1.5rem;">
+            <h3 style="font-size: 1.15rem; color: var(--accent-purple); margin-bottom: 0.75rem;">Tools &amp; IDEs</h3>
+            <div style="display: flex; flex-wrap: wrap; gap: 0.5rem;">
+              <span class="skill-badge">Git</span>
+              <span class="skill-badge">GitHub</span>
+              <span class="skill-badge">Google Antigravity IDE</span>
+            </div>
+          </div>
+
+          <div class="glass-card" style="padding: 1.5rem;">
+            <h3 style="font-size: 1.15rem; color: var(--accent-tertiary); margin-bottom: 0.75rem;">Productivity Tools</h3>
+            <div style="display: flex; flex-wrap: wrap; gap: 0.5rem;">
+              <span class="skill-badge">MS Word</span>
+              <span class="skill-badge">MS Excel</span>
+              <span class="skill-badge">PowerPoint (PPT)</span>
+              <span class="skill-badge">Paint</span>
+            </div>
+          </div>
+        </div>
+
+        <div style="text-align: center; margin-top: 2.5rem;">
+          <a href="skills.html" class="btn btn-secondary">
+            Explore Skills Overview
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" width="16" height="16" aria-hidden="true">
+              <line x1="5" y1="12" x2="19" y2="12"></line>
+              <polyline points="12 5 19 12 12 19"></polyline>
+            </svg>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Call to Action Banner -->
+    <section class="section section-sm" id="ctaSection">
+      <div class="container">
+        <div class="cta-banner">
+          <h2 class="cta-title">Interested in Collaborating or Connecting?</h2>
+          <p class="cta-desc">
+            I am always open to discussing web development, programming projects, and student learning opportunities. Let's get in touch!
+          </p>
+          <div style="display: flex; justify-content: center; gap: 1rem; flex-wrap: wrap;">
+            <a href="contact.html" class="btn btn-primary btn-lg">
+              Send Me a Message
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <line x1="5" y1="12" x2="19" y2="12"></line>
+                <polyline points="12 5 19 12 12 19"></polyline>
+              </svg>
+            </a>
+            <a href="resume.html" class="btn btn-secondary btn-lg">
+              View Formal Resume
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- =========================================================================
+       Site Footer
+       ========================================================================= -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <!-- Brand Column -->
+        <div>
+          <a href="index.html" class="brand-link">
+            <img src="assets/images/kitkat-logo.png" alt="Aksh Kumar Emblem" class="brand-emblem" width="38" height="38">
+            <span class="brand-name">Aksh Kumar</span>
+          </a>
+          <p class="footer-brand-desc">
+            BCA Student at Patna University’s B.N. College. Building practical software and front-end development capabilities with C, Java, Python, HTML, CSS, JavaScript, and Django.
+          </p>
+        </div>
+
+        <!-- Quick Links -->
+        <div>
+          <h3 class="footer-col-title">Navigation</h3>
+          <ul class="footer-links-list">
+            <li><a href="index.html" class="footer-link">Home</a></li>
+            <li><a href="about.html" class="footer-link">About Me</a></li>
+            <li><a href="projects.html" class="footer-link">Projects</a></li>
+            <li><a href="skills.html" class="footer-link">Technical Skills</a></li>
+            <li><a href="resume.html" class="footer-link">Resume &amp; CV</a></li>
+            <li><a href="contact.html" class="footer-link">Contact</a></li>
+          </ul>
+        </div>
+
+        <!-- Contact & Profiles -->
+        <div>
+          <h3 class="footer-col-title">Connect</h3>
+          <ul class="footer-links-list">
+            <li>
+              <a href="mailto:kitkat99344@gmail.com" class="footer-link">
+                kitkat99344@gmail.com
+              </a>
+            </li>
+            <li>
+              <a href="tel:+916202382288" class="footer-link">
+                +91-6202382288
+              </a>
+            </li>
+            <li>
+              <a href="https://github.com/akshkumar3156-art" target="_blank" rel="noopener noreferrer" class="footer-link">
+                GitHub: akshkumar3156-art
+              </a>
+            </li>
+            <li>
+              <a href="https://www.linkedin.com/in/aksh-kumar-370840359/" target="_blank" rel="noopener noreferrer" class="footer-link">
+                LinkedIn: Aksh Kumar
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; 2026 Aksh Kumar. All rights reserved. Built with HTML5, Vanilla CSS, and JavaScript.</p>
+        <p>Patna University, B.N. College, Patna</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Back to Top Button -->
+  <button type="button" class="back-to-top-btn" id="backToTopBtn" aria-label="Back to top of page">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+      <polyline points="18 15 12 9 6 15"></polyline>
+    </svg>
+  </button>
+
+  <!-- Scripts -->
+  <script src="js/portfolio-data.js"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>
