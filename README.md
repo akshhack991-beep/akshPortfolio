@@ -90,7 +90,7 @@ The website is intentionally architected to grow alongside your BCA studies and 
      image: "assets/images/project-[project-name].png",
      technologies: ["Tech 1", "Tech 2"],
      liveUrl: "https://your-live-demo.com",
-     githubUrl: "https://github.com/akshkumar3156-art/your-repo",
+     githubUrl: "https://github.com/akshhack991-beep/your-repo",
      isLiveDemo: true,
      features: ["Feature 1", "Feature 2"]
    }
@@ -133,11 +133,11 @@ Update the email, phone number, LinkedIn, or GitHub URLs in:
    ```
 
 2. **Create a GitHub Repository:**
-   - Go to [GitHub](https://github.com) and create a new public repository named `portfolio` (or `akshkumar3156-art.github.io`).
+   - Go to [GitHub](https://github.com) and create a new public repository named `portfolio` (or `akshhack991-beep.github.io`).
 
 3. **Push Your Code:**
    ```bash
-   git remote add origin https://github.com/akshkumar3156-art/portfolio.git
+   git remote add origin https://github.com/akshhack991-beep/portfolio.git
    git branch -M main
    git push -u origin main
    ```
@@ -148,7 +148,7 @@ Update the email, phone number, LinkedIn, or GitHub URLs in:
    - Select the `main` branch and `/ (root)` folder, then click **Save**.
    - Within 1–2 minutes, your website will be live at:
      ```text
-     https://akshkumar3156-art.github.io/portfolio/
+     https://akshhack991-beep.github.io/portfolio/
      ```
 
 ---
@@ -161,8 +161,8 @@ All skills, education dates, workshops, and project specifications in this codeb
 - **Class X (Secondary School):** Saraswati Vidya Mandir, CBSE Board (93% Distinction)
 - **Email:** kitkat99344@gmail.com
 - **Phone:** +91-6202382288
-- **GitHub:** [https://github.com/akshkumar3156-art](https://github.com/akshkumar3156-art)
+- **GitHub:** [https://github.com/akshhack991-beep](https://github.com/akshhack991-beep)
 - **LinkedIn:** [https://www.linkedin.com/in/aksh-kumar-370840359/](https://www.linkedin.com/in/aksh-kumar-370840359/)
 - **Myntra Clone Live Demo:** [https://kitkat99344.github.io/myntra-clone/](https://kitkat99344.github.io/myntra-clone/)
-- **To-Do List Live Demo:** [https://akshkumar3156-art.github.io/ToDoList/](https://akshkumar3156-art.github.io/ToDoList/)
-- **Weather CLI Repository:** [https://github.com/akshkumar3156-art/learning_projects](https://github.com/akshkumar3156-art/learning_projects)
+- **To-Do List Live Demo:** [https://akshhack991-beep.github.io/ToDoList/](https://akshhack991-beep.github.io/ToDoList/)
+- **Weather CLI Repository:** [https://github.com/akshhack991-beep/learning_projects](https://github.com/akshhack991-beep/learning_projects)

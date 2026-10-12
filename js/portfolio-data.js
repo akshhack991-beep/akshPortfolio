@@ -20,7 +20,7 @@ const portfolioData = {
     location: "Patna, Bihar, India",
     summary: "BCA student at Patna University’s B.N. College with foundational skills in C, Java, Python, HTML, CSS, and JavaScript. Building practical projects to strengthen programming and front-end development skills. Familiar with using Google Antigravity IDE as a development tool, alongside Git and GitHub for project work.",
     socials: {
-      github: "https://github.com/akshkumar3156-art",
+      github: "https://github.com/akshhack991-beep",
       linkedin: "https://www.linkedin.com/in/aksh-kumar-370840359/",
       emailMailto: "mailto:kitkat99344@gmail.com",
       phoneTel: "tel:+916202382288"
@@ -89,7 +89,7 @@ const portfolioData = {
       image: "assets/images/project-myntra.png",
       technologies: ["HTML5", "Vanilla CSS", "Responsive Design", "UI Layout"],
       liveUrl: "https://kitkat99344.github.io/myntra-clone/",
-      githubUrl: "https://github.com/akshkumar3156-art",
+      githubUrl: "https://github.com/akshhack991-beep",
       isLiveDemo: true,
       features: [
         "Faithful recreation of Myntra navigation header and search bar layout",
@@ -107,8 +107,8 @@ const portfolioData = {
       description: "Built a browser-based task list to add, update, organize, and track daily activities with dates, timestamps, and interactive task deletion.",
       image: "assets/images/project-todo.png",
       technologies: ["HTML5", "CSS3", "JavaScript", "DOM Manipulation"],
-      liveUrl: "https://akshkumar3156-art.github.io/ToDoList/",
-      githubUrl: "https://github.com/akshkumar3156-art",
+      liveUrl: "https://akshhack991-beep.github.io/ToDoList/",
+      githubUrl: "https://github.com/akshhack991-beep",
       isLiveDemo: true,
       features: [
         "Dynamic task input with specific due date and time pickers",
@@ -127,7 +127,7 @@ const portfolioData = {
       image: "assets/images/project-weather.png",
       technologies: ["Python", "CLI", "Weather API", "Terminal Interface"],
       liveUrl: null, // As specified: Weather CLI does NOT have a web live demo
-      githubUrl: "https://github.com/akshkumar3156-art/learning_projects",
+      githubUrl: "https://github.com/akshhack991-beep/learning_projects",
       isLiveDemo: false,
       features: [
         "Direct terminal user input for city name query (e.g., Gaya)",
