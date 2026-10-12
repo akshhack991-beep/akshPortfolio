@@ -164,5 +164,5 @@ All skills, education dates, workshops, and project specifications in this codeb
 - **GitHub:** [https://github.com/akshhack991-beep](https://github.com/akshhack991-beep)
 - **LinkedIn:** [https://www.linkedin.com/in/aksh-kumar-370840359/](https://www.linkedin.com/in/aksh-kumar-370840359/)
 - **Myntra Clone Live Demo:** [https://kitkat99344.github.io/myntra-clone/](https://kitkat99344.github.io/myntra-clone/)
-- **To-Do List Live Demo:** [https://akshhack991-beep.github.io/ToDoList/](https://akshhack991-beep.github.io/ToDoList/)
+- **To-Do List Live Demo:** [https://akshkumar3156-art.github.io/ToDoList/](https://akshkumar3156-art.github.io/ToDoList/)
 - **Weather CLI Repository:** [https://github.com/akshhack991-beep/learning_projects](https://github.com/akshhack991-beep/learning_projects)

@@ -107,7 +107,7 @@ const portfolioData = {
       description: "Built a browser-based task list to add, update, organize, and track daily activities with dates, timestamps, and interactive task deletion.",
       image: "assets/images/project-todo.png",
       technologies: ["HTML5", "CSS3", "JavaScript", "DOM Manipulation"],
-      liveUrl: "https://akshhack991-beep.github.io/ToDoList/",
+      liveUrl: "https://akshkumar3156-art.github.io/ToDoList/",
       githubUrl: "https://github.com/akshhack991-beep",
       isLiveDemo: true,
       features: [
