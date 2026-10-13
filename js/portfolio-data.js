@@ -127,7 +127,7 @@ const portfolioData = {
       image: "assets/images/project-weather.png",
       technologies: ["Python", "CLI", "Weather API", "Terminal Interface"],
       liveUrl: null, // As specified: Weather CLI does NOT have a web live demo
-      githubUrl: "https://github.com/akshhack991-beep/learning_projects",
+      githubUrl: "https://github.com/akshkumar3156-art/learning_projects/blob/main/weather.py",
       isLiveDemo: false,
       features: [
         "Direct terminal user input for city name query (e.g., Gaya)",
