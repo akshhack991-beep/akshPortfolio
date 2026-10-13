@@ -704,7 +704,7 @@ button, input, textarea, select {
 }
 
 .hero-subtitle {
-  font-size: clamp(1.02rem, 1.25vw, 1.18rem);
+  font-size: clamp(1.1rem, 1.3vw, 1.22rem);
   font-weight: 600;
   color: var(--text-primary);
   margin-bottom: 0.8rem;
@@ -712,9 +712,9 @@ button, input, textarea, select {
 }
 
 .hero-description {
-  font-size: 0.965rem;
+  font-size: 1.05rem;
   color: var(--text-secondary);
-  line-height: 1.62;
+  line-height: 1.68;
   max-width: 550px;
   margin-bottom: 1.25rem;
 }
