@@ -133,6 +133,9 @@ html {
   scroll-behavior: smooth;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+  max-width: 100%;
+  width: 100%;
 }
 
 body {
@@ -147,6 +150,8 @@ body {
   display: flex;
   flex-direction: column;
   overflow-x: hidden;
+  max-width: 100%;
+  width: 100%;
   position: relative;
   transition: background-color var(--transition-base), color var(--transition-base);
 }
@@ -203,6 +208,14 @@ button, input, textarea, select {
   margin-right: auto;
   padding-left: 1.5rem;
   padding-right: 1.5rem;
+  box-sizing: border-box;
+}
+
+@media (max-width: 480px) {
+  .container {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
 }
 
 .section {
@@ -633,6 +646,12 @@ button, input, textarea, select {
   font-weight: 600;
   margin-bottom: 1.25rem;
   backdrop-filter: blur(8px);
+  max-width: 100%;
+  box-sizing: border-box;
+}
+
+.status-badge-text {
+  display: inline;
 }
 
 .status-dot {
@@ -665,6 +684,11 @@ button, input, textarea, select {
   font-weight: 800;
   line-height: 1.15;
   margin-bottom: 0.5rem;
+}
+
+.hero-name-highlight {
+  color: var(--accent-primary);
+  white-space: nowrap;
 }
 
 .hero-subtitle {
@@ -722,11 +746,14 @@ button, input, textarea, select {
   .hero-section {
     min-height: auto;
     padding: 1.25rem 0 2.5rem 0;
+    overflow-x: hidden;
   }
   .hero-grid {
     display: flex;
     flex-direction: column;
     gap: 1.5rem;
+    width: 100%;
+    max-width: 100%;
   }
   /* On mobile and tablets, show image first at top so it is immediately visible with no scroll! */
   .hero-visual-wrapper {
@@ -739,6 +766,8 @@ button, input, textarea, select {
     order: 2;
     align-items: center;
     text-align: center;
+    width: 100%;
+    max-width: 100%;
   }
   .hero-description {
     text-align: center;
@@ -749,22 +778,70 @@ button, input, textarea, select {
   }
   .hero-stats-bar {
     text-align: center;
+    width: 100%;
   }
 }
 
-@media (max-width: 540px) {
+@media (max-width: 600px) {
+  .status-badge {
+    display: inline-flex;
+    align-items: flex-start;
+    border-radius: var(--radius-md);
+    padding: 0.4rem 0.75rem;
+    font-size: 0.76rem;
+    line-height: 1.35;
+    text-align: left;
+    white-space: normal;
+    word-break: break-word;
+    max-width: 100%;
+  }
+  .status-dot {
+    flex-shrink: 0;
+    margin-top: 4px;
+  }
+
+  .hero-title {
+    font-size: clamp(1.85rem, 7.5vw, 2.35rem);
+    line-height: 1.2;
+    margin-bottom: 0.4rem;
+  }
+
+  .hero-greeting {
+    display: block;
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: var(--text-secondary);
+    margin-bottom: 0.15rem;
+  }
+
+  .hero-name-highlight {
+    display: inline-block;
+    white-space: nowrap;
+    color: var(--accent-primary);
+  }
+
+  .hero-subtitle {
+    font-size: 0.95rem;
+    line-height: 1.4;
+  }
+
   .hero-stats-bar {
-    gap: 0.75rem;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 0.5rem;
+    width: 100%;
   }
   .stat-number {
-    font-size: 1.25rem;
+    font-size: 1.2rem;
   }
   .stat-label {
-    font-size: 0.7rem;
+    font-size: 0.68rem;
+    line-height: 1.2;
   }
+
   .hero-actions {
     flex-direction: column;
     width: 100%;
+    gap: 0.65rem;
   }
   .hero-actions .btn {
     width: 100%;
@@ -922,6 +999,35 @@ button, input, textarea, select {
 /* --------------------------------------------------------------------------
    8. Project Cards
    -------------------------------------------------------------------------- */
+.filter-bar {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 0.65rem;
+  margin-bottom: 2.25rem;
+  width: 100%;
+}
+
+.filter-pill {
+  padding: 0.5rem 1.15rem;
+  border-radius: var(--radius-full);
+  background: var(--bg-surface);
+  border: 1px solid var(--border-subtle);
+  color: var(--text-secondary);
+  font-size: 0.875rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all var(--transition-fast);
+}
+
+.filter-pill:hover,
+.filter-pill.active {
+  background: var(--gradient-accent-soft);
+  border-color: var(--accent-primary);
+  color: var(--accent-primary);
+}
+
 .projects-grid {
   display: grid;
   grid-template-columns: 1fr;
